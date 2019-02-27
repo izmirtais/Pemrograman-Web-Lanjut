@@ -1,0 +1,38 @@
+<h3><p>
+  IZMIR TA'IS KHASNA LUGAZI
+  <br> 1741720180 TI-2B
+  <br> Tugas Kedua
+</p></h3>
+
+<h1 align=center>{{title}}
+  <br>{{currentDate|date:"fullDate"}}
+</h1>
+
+<h2>
+  <br> {{"Nama: " + nama}}
+  <br> {{"Alamat : " + alamat}}
+  <br> {{hoby}}
+</h2>
+
+<h2>
+  <table border='1'>
+  <thead>
+    <th>
+    NO
+    </th>
+    <th>
+    Hobby
+    </th>
+    <th>
+    Keterangan
+    </th>
+  </thead>
+    <tbody>
+      <tr *ngFor="let tugas of TugasKedua"> 
+        <td>{{tugas.NO}}</td>
+        <td>{{tugas.Hobby}}</td>
+        <td>{{tugas.Keterangan}}</td>
+    </tr>
+    </tbody>
+  </table>
+</h2>
