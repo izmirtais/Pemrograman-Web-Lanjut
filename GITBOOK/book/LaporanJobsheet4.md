@@ -106,7 +106,7 @@ export class CoursesComponent implements OnInit {
 * Maka akan tampil seperti gambar dibawah
 ![](image/Jobsheet4/2.png)
 
-###Praktikum - Bagian 3: Class Binding###
+### Praktikum - Bagian 3: Class Binding
 
 * Buka file **courses.component.ts** dan tambahkan properti isActive = true setelah line colspan = 2;
 
@@ -116,7 +116,7 @@ export class CoursesComponent implements OnInit {
   colSpan = 2;
   isActive = true;
 ```
-* 2	Buka file **courses.component.html** lalu tambahkan class binding seperti berikut :
+* Buka file **courses.component.html** lalu tambahkan class binding seperti berikut :
 
 ```html
 <table>
@@ -145,7 +145,7 @@ export class CoursesComponent implements OnInit {
 <br>
 ```
 
-* Hasil setelah di execute
+- Hasil setelah di execute
 ![](image/Jobsheet4/3.png)
 
 ### Bagian 5: Event Binding
