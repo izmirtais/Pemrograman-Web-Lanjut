@@ -1,6 +1,6 @@
 # Jobsheet 3 - Angular Fundamental 
 
-###Praktikum – Bagian 1: Component Basic###
+###Praktikum – Bagian 1: Component Basic
 
 - Buatlah sebuah componen dengan nama **courses** dengan cara ketik perintah `ng generate component name` atau ` ng g c nama`
 
@@ -52,7 +52,7 @@ Perhatikan hasilnya
 ![](image/Jobsheet3/4.png)
 `Dikarenakan CoursesComponent elemen penting dari **NgModule**, maka jika dihapus angular tidak dapat menampilkan isi *html*`
 
-###Praktikum – Bagian 2: Templates###
+###Praktikum – Bagian 2: Templates
 
 - Buka file **courses.component.ts** tambahkan property baru dengan nama *title*
 
@@ -114,7 +114,7 @@ export class CoursesComponent implements OnInit {
 - Soal 7 refresh dan perhatikan hasilnya
 ![](image/Jobsheet3/7.png)
 
-###Praktikum - Bagian 3: Directive###
+###Praktikum - Bagian 3: Directive
 
 - Buka file **courses.component.ts** dan buat properti dengan nama *course* dengan data berupa array
 
