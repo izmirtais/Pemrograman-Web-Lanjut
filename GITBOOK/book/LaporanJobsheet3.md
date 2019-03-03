@@ -44,13 +44,12 @@ import { CoursesComponent } from './courses/courses.component';
 export class AppModule { }
 ```
 
-- Soal 3
-Perhatikan hasilnya
+- Soal 3 Perhatikan hasilnya:
 ![](image/Jobsheet3/3.png)
 
-- Lakukan *inspect* pada halaman. Terdapat error setelag **Go to Definition** , **app-course** merupakan elemen yang tidak diketahui
+- Lakukan *inspect* pada halaman. Terdapat error setelag **Go to Definition** , **app-course** merupakan elemen yang tidak diketahui:
 ![](image/Jobsheet3/4.png)
-`Dikarenakan CoursesComponent elemen penting dari **NgModule**, maka jika dihapus angular tidak dapat menampilkan isi *html*`
+
 
 ### Praktikum – Bagian 2: Templates
 
@@ -108,7 +107,7 @@ export class CoursesComponent implements OnInit {
   }
 }
 ```
-- Buka file **courses.component.html**, lakukan modifikasi seperti berikut :
+- Buka file **courses.component.html**, lakukan modifikasi seperti berikut:
 ![](image/Jobsheet3/6a.png)
 
 - Soal 7 refresh dan perhatikan hasilnya
@@ -147,7 +146,7 @@ export class CoursesComponent implements OnInit {
   }
 }
 ```
-- Buka file **courses.component.html** tambahkan directive ngFor dan string interpolation seperti berikut :
+- Buka file **courses.component.html** tambahkan directive ngFor dan string interpolation seperti berikut:
 ![](image/Jobsheet3/7a.png)
 
 - Soal 8 refresh dan perhatikan hasilnya
