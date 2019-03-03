@@ -65,7 +65,9 @@ Execute file javascript dengan perintah `tsc main.ts`
 ![](image/Jobsheet2/8.png)
 
 ### Praktikum - Bagian 3: Types
+
 - Buka file **main.ts**, kemudian tuliskan listing program berikut:
+
 ```typescript
 let count =5;
 count = 'a';
@@ -77,7 +79,8 @@ count = 'a';
 Lakukan proses transpile file **main.ts** dengan perintah `tsc main.ts` 
 ![](image/Jobsheet2/9.png)
 
-- Hasil transpile file **main.ts**, menghasilkan file **main.js** seperti beriku:
+- Hasil transpile file **main.ts**, menghasilkan file **main.js** seperti berikut:
+
 ```typescript
 var count = 5;
 count = 'a'; 
@@ -86,14 +89,17 @@ count = 'a';
 ### Praktikum – Bagian 4: Type Assertion
 
 - Buka file **main.ts**, kemudian tuliskan code berikut:
+
 ```typescript
 let pesan;
 pesan='abc';
 let percobaan=(<string>pesan).endsWith('c');
-let alternative=(pesan as string).endsWith('c');```
+let alternative=(pesan as string).endsWith('c');
+```
 
 - Soal 10
 Remove file **main.js** sebelumnya, lalu Lakukan proses transpile file **main.ts** dengan perintah `tsc main.ts`. Hasil file **main.js**
+
 ```typescript
 var pesan;
 pesan = 'abc';
@@ -117,10 +123,12 @@ let doLog=(pesan)=>{
 }
 
 //atau seperti berikut
-let doLog1=(pesan)=>console.log(pesan);```
+let doLog1=(pesan)=>console.log(pesan);
+```
 
 - Soal 11
 Remove file **main.js** sebelumnya, lalu Lakukan proses transpile file **main.ts** dengan perintah `tsc main.ts`. Hasil file **main.js**
+
 ```typescript
 var log = function pesan() {
     console.log();
@@ -156,6 +164,7 @@ drawPoint({
 
 - Soal 12
 Remove file **main.js** sebelumnya, lalu Lakukan proses transpile file **main.ts** dengan perintah `tsc main.ts`. Hasil file **main.js**
+
 ```typescript
 var drawPoint = function (point) {
     //...
@@ -170,6 +179,7 @@ drawPoint({
 ### Praktikum – Bagian 7: Classes
 
 - Buka file **main.ts**, kemudian tuliskan code berikut:
+
 ```typescript
 class Pointku{
     a:number;
@@ -191,6 +201,7 @@ Remove file **main.js** sebelumnya, lalu Lakukan proses transpile file **main.ts
 ### Praktikum – Bagian 8: Objects
 
 - Buka file **main.ts**, kemudian tuliskan code berikut:
+
 ```typescript
 class Pointku{
     a:number;
