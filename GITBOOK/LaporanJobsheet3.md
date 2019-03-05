@@ -116,7 +116,7 @@ export class CoursesComponent implements OnInit {
 ```
 - Buka file **courses.component.html**, lakukan modifikasi seperti berikut:
 
-![](image/Jobsheet3/6a.png)
+![](image/Jobsheet3/6a.PNG)
 
 - Soal 7 refresh dan perhatikan hasilnya
 
