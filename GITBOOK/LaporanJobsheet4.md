@@ -264,7 +264,7 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
     }
 ```
 
-* Hasil yang didapat krtika adanya parameter maka hasil akan sesuai dengan apa yang diinputkan
+* Hasil yang didapat ketika adanya parameter maka hasil akan sesuai dengan apa yang diinputkan
 
 ![](image/Jobsheet4/9.PNG)
 
