@@ -48,7 +48,7 @@ export class AppModule { }
 ![](image/Jobsheet3/3.png)
 
 - Lakukan *inspect* pada halaman. Terdapat error setelag **Go to Definition** , **app-course** merupakan elemen yang tidak diketahui:
-![](image/Jobsheet3/4.png)
+![](image/Jobsheet3/4.PNG)
 
 
 ### Praktikum – Bagian 2: Templates
@@ -78,7 +78,7 @@ export class CoursesComponent implements OnInit {
 ![](image/Jobsheet3/5.png)
 
 - Tambahkan string pada binding data. Buka file **courses.component.html**. tambahkan seperti berikut:
-![](image/Jobsheet3/5a.png)
+![](image/Jobsheet3/5a.PNG)
 
 - Soal 6 kemudian refresh browser
 ![](image/Jobsheet3/6.png)
@@ -147,7 +147,7 @@ export class CoursesComponent implements OnInit {
 }
 ```
 - Buka file **courses.component.html** tambahkan directive ngFor dan string interpolation seperti berikut:
-![](image/Jobsheet3/7a.png)
+![](image/Jobsheet3/7a.PNG)
 
 - Soal 8 refresh dan perhatikan hasilnya
 ![](image/Jobsheet3/8.png)
