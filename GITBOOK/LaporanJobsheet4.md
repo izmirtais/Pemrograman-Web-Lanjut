@@ -1,6 +1,6 @@
-#04. Displaying Data And Binding Data#
+# 04. Displaying Data And Binding Data
 
-###Praktikum – Bagian 1: Component Basic###
+### Praktikum – Bagian 1: Component Basic
 
 * Buka file **courses.component.ts** kemudian tambahkan code seperti berikut:
 
@@ -62,7 +62,7 @@ export class CoursesComponent implements OnInit {
 * Hasilnya seperti berikut
 ![](image/Jobsheet4/1.png)
 
-###Praktikum – Bagian 2: Attribute Binding###
+### Praktikum – Bagian 2: Attribute Binding
 
 * Buka file **courses.component.ts** tambahkan properti colspan dibawah line imageUrl
 
@@ -106,7 +106,7 @@ export class CoursesComponent implements OnInit {
 * Maka akan tampil seperti gambar dibawah
 ![](image/Jobsheet4/2.png)
 
-###Praktikum - Bagian 3: Class Binding###
+### Praktikum - Bagian 3: Class Binding
 
 * Buka file **courses.component.ts** dan tambahkan properti isActive = true setelah line colspan = 2;
 
@@ -116,7 +116,7 @@ export class CoursesComponent implements OnInit {
   colSpan = 2;
   isActive = true;
 ```
-* 2	Buka file **courses.component.html** lalu tambahkan class binding seperti berikut :
+* Buka file **courses.component.html** lalu tambahkan class binding seperti berikut :
 
 ```html
 <table>
@@ -127,7 +127,7 @@ export class CoursesComponent implements OnInit {
 </table>
 ```
 
-###– Bagian 4: Style Binding###
+### Bagian 4: Style Binding
 
 * Buka file **courses.component.html** lalu tambahkan class binding seperti berikut :
 
@@ -148,7 +148,7 @@ export class CoursesComponent implements OnInit {
 * Hasil setelah di execute
 ![](image/Jobsheet4/3.png)
 
-###Bagian 5: Event Binding###
+### Bagian 5: Event Binding
 
 * Buka file **course.component.ts** dan buatlah method dengan nama onSave()
 
@@ -216,7 +216,7 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 * Hasil yang didapat seperti berikut:
 ![](image/Jobsheet4/7.png)
 
-###Praktikum – Bagian 6: Event Filtering###
+### Praktikum – Bagian 6: Event Filtering
 
 * Buat inputan pada file **courses.component.html**
 
@@ -236,7 +236,7 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 ![](image/Jobsheet4/8.png)
 ![](image/Jobsheet4/8a.png)
 
-###Praktikum – Bagian 7: Template Variable###
+### Praktikum – Bagian 7: Template Variable
 
 * Tambahkan variabel #nama pada file **courses.component.html**
 
@@ -253,9 +253,10 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 ```
 
 * Hasil yang didapat krtika adanya parameter maka hasil akan sesuai dengan apa yang diinputkan
+![](image/Jobsheet4/10a.png)
 ![](image/Jobsheet4/9.png)
 
-###Bagian 8: Two Way Binding###
+### Bagian 8: Two Way Binding
 
 * Buat property baru dengan nama kalian masing-masing dan rubah parameter pada log pada file **courses.component.ts**
 
@@ -275,9 +276,10 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 
 * Hasil
 ![](image/Jobsheet4/10.png)
-![](image/Jobsheet4/10a.png)
+![](image/Jobsheet4/10b.png)
 
-* Buka file **app.module.ts** dan tambahkan formmodule seperti berikut :
+
+* Buka file **app.module.ts** dan tambahkan form module seperti berikut :
 
 ```typescript
   imports: [
@@ -292,3 +294,6 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 ```html
 <input type="text" [(ngModel)] = "nama" (keyup.enter)="onKeyUp()">
 ```
+
+* Hasil
+![](image/Jobsheet4/10c.png)
