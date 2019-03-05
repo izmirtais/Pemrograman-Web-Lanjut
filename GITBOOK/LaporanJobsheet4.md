@@ -59,7 +59,8 @@ export class CoursesComponent implements OnInit {
 <img [src]="imageUrl" />
 ```
 
-* Hasilnya seperti berikut
+* Hasilnya seperti berikut:
+
 ![](image/Jobsheet4/1.PNG)
 
 ### Praktikum – Bagian 2: Attribute Binding
@@ -82,6 +83,7 @@ export class CoursesComponent implements OnInit {
 ```
 
 * Maka akan muncul error 
+
 ![](image/Jobsheet4/a.png)
 
 * Tambahkan attr pada colspan seperti berikut:
@@ -104,6 +106,7 @@ export class CoursesComponent implements OnInit {
 </table>
 ```
 * Maka akan tampil seperti gambar dibawah
+
 ![](image/Jobsheet4/2.PNG)
 
 ### Praktikum - Bagian 3: Class Binding
@@ -146,6 +149,7 @@ export class CoursesComponent implements OnInit {
 ```
 
 * Hasil setelah di execute
+
 ![](image/Jobsheet4/3.PNG)
 
 ### Bagian 5: Event Binding
@@ -164,6 +168,7 @@ onSave() {
 ```
  
 * Hasil jika di klik maka pada console akan muncul keterangan
+
 ![](image/Jobsheet4/4.PNG)
 
 * Buka file courses.component.ts tambahkan parameter $event
@@ -181,6 +186,7 @@ onSave() {
 ```
 
 * Maka hasilnya akan menampilkan pointerEvent
+
 ![](image/Jobsheet4/5.PNG)
 
 * Buatlah method onDivClick() pada file **courses.component.ts**
@@ -201,8 +207,11 @@ onSave() {
 ```
 
 * Hasil yang didapat seperti berikut:
+
 ![](image/Jobsheet4/6.PNG)
+
 ![](image/Jobsheet4/6a.PNG)
+
 button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 
 * Untuk mengatasi event bubbling maka tambahkan $event.stopPropagation pada file **courses.component.ts**
@@ -233,7 +242,9 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 ```
 
 * Hasil setelah dienter
+
 ![](image/Jobsheet4/8.PNG)
+
 ![](image/Jobsheet4/8a.PNG)
 
 ### Praktikum – Bagian 7: Template Variable
@@ -253,7 +264,9 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 ```
 
 * Hasil yang didapat krtika adanya parameter maka hasil akan sesuai dengan apa yang diinputkan
+
 ![](image/Jobsheet4/10a.PNG)
+
 ![](image/Jobsheet4/9.PNG)
 
 ### Bagian 8: Two Way Binding
@@ -275,11 +288,13 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
 ```
 
 * Hasil
+
 ![](image/Jobsheet4/10.PNG)
+
 ![](image/Jobsheet4/10b.PNG)
 
 
-* Buka file **app.module.ts** dan tambahkan form module seperti berikut :
+* Buka file **app.module.ts** dan tambahkan form module seperti berikut:
 
 ```typescript
   imports: [
@@ -289,11 +304,12 @@ button sudah diklik juga akan muncul karena tidak ada pemberhentian button
   ],
 ```
 
-* Buka file **course.component.html**, modifikasi code nya seperti berikut :
+* Buka file **course.component.html**, modifikasi code nya seperti berikut:
 
 ```html
 <input type="text" [(ngModel)] = "nama" (keyup.enter)="onKeyUp()">
 ```
 
 * Hasil
+
 ![](image/Jobsheet4/10c.PNG)
