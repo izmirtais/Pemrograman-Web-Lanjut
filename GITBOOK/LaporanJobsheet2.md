@@ -4,6 +4,7 @@
 
 - Soal 1
 Cara mengistal **typescript** dengan perintah berikut `npm install -g typescript`
+
 ![](image/Jobsheet2/1.png)
 
 
@@ -34,7 +35,7 @@ Cek apakah sudah terbuat file **main.js**, lakukan perintah `ls`
 
 - Soal 4
 Buka file javascript, perhatikan apakah sama isi dari file **main.ts** dan `main.js`
-![](image/Jobsheet2/4.png)
+![](image/Jobsheet2/4.PNG)
 
 - Soal 5
 Lakukan execute pada file **main.js** dengan perintah `node main.js`
@@ -73,7 +74,7 @@ let count =5;
 count = 'a';
 ```
 - Akan terdapat masalah pada file **main.ts**
-![](image/Jobsheet2/9a.png)
+![](image/Jobsheet2/9a.PNG)
 
 - Soal 9
 Lakukan proses transpile file **main.ts** dengan perintah `tsc main.ts` 
