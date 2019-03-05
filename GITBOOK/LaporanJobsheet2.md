@@ -69,7 +69,7 @@ Lakukan transpile file **main.ts** dengan perintah yang ada pada praktikum bagia
 ![](image/Jobsheet2/7.png)
 
 - Soal 8
-Execute file javascript dengan perintah `tsc main.ts`
+Execute file javascript dengan perintah `node main.ts`
 
 ![](image/Jobsheet2/8.png)
 
