@@ -82,7 +82,7 @@ export class CoursesComponent implements OnInit {
 ```
 
 * Maka akan muncul error 
-![](image/Jobsheet4/a.PNG)
+![](image/Jobsheet4/a.png)
 
 * Tambahkan attr pada colspan seperti berikut:
 
