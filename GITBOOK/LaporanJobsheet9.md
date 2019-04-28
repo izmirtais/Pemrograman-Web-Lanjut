@@ -44,9 +44,9 @@ Class Http pada contructor digunakan untuk melakukan HTTP request ke back end.
 
 ![](image/Jobsheet9/4.JPG)
 
-* Lengkapi kode program pada FILE **posts.component.ts** menjadi :
+* Lengkapi kode program pada file **posts.component.ts** menjadi :
 
-![](image/Jobsheet9/4.JPG)
+![](image/Jobsheet9/4a.JPG)
 
 * Jalankan pada browser dan jelaskan yang muncul pada console. **(soal 3)**
 
