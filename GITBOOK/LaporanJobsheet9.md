@@ -21,16 +21,16 @@ Jika HttpModule tidak muncul secara otomatis maka anda harus menginstal terlebih
  
 Setelah ``@angular/http`` terinstall, maka anda dapat menjalankan praktikum pada langkah 2.
 
-![](image/Jobsheet9/2.PNG)
+![](image/Jobsheet9/2.png)
 
 * Modifikasi file **posts.component.ts** menjadi seperti berikut:
 Class Http pada contructor digunakan untuk melakukan HTTP request ke back end.
 
-![](image/Jobsheet9/2a.PNG)
+![](image/Jobsheet9/2a.png)
 
 * Ubah file **app.component.html** seperti berikut :
 
-![](image/Jobsheet9/2b.PNG)
+![](image/Jobsheet9/2b.png)
 
 * Jalankan dan Catat hasilnya **(soal 1)**
 
