@@ -6,15 +6,15 @@
 
 * Buat component baru dengan nama signup-form dengan perintah ``ng g c posts``
 
-![](image/Jobsheet9/1.PNG)
+![](image/Jobsheet9/1.png)
 
 * Untuk menggunakan ``HTTPService``, kita perlu melakukan ``import HttpModule`` pada file **app.module.ts**.
 
-![](image/Jobsheet9/1a.PNG)
+![](image/Jobsheet9/1a.png)
 
 Setelah kita menambahkan HttpModule pada bagian imports maka secara otomatis akan menambah imports pada bagian paling atas 
 
-![](image/Jobsheet9/1b.PNG)
+![](image/Jobsheet9/1b.png)
 
 Hint :
 Jika HttpModule tidak muncul secara otomatis maka anda harus menginstal terlebih dahulu dengan perintah ``npm i @angular/http``
